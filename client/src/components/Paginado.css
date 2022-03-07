@@ -1,0 +1,28 @@
+.lista{
+    list-style: none;
+    display: flex;
+    
+}
+nav{
+    display: flex;
+    justify-content: center;
+    /* background-color: rgba(247, 196, 119, 0.74); */
+    
+    margin: 15px;
+}
+
+li{
+    float: left;
+    padding: 5px;
+    
+}
+select, .boton{
+    background-color:rgba(234, 247, 119, 0.74); 
+    border-radius: 5px;
+    border: 2px solid #F7C477;
+    padding: 7px;
+}
+
+.boton:focus{
+    border: 2px solid black
+}

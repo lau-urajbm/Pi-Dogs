@@ -1,0 +1,74 @@
+/* body{
+     background-image: url('https://as2.ftcdn.net/v2/jpg/01/52/44/65/1000_F_152446546_lzsRDcc7MNqLGjDg3FUMbl7pTqNjXb88.jpg') ;
+     background-repeat: no-repeat;
+    background-attachment: fixed;
+     height: 100%;
+     width: 100%;
+     display:flex;
+     justify-content: center;
+     margin:0;
+}  */
+.body{
+    display: flex;
+    margin: 100px;
+    padding: 100px;
+    justify-content: center;
+    align-content: center;
+}
+/* .bienvenido{
+    text-align: center;
+    background-image:url('https://1.bp.blogspot.com/-Xn2v8r5_NRw/W-SlIR6L65I/AAAAAAAAM14/5uSBLZCaih4GMIsacsi-ZhXatOQfrY5CgCLcBGAs/s1600/perrito%2Bsaliendo%2Bde%2Bcaja.gif') ;
+    background-repeat: repeat-y;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    padding: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+} */
+.bienvenida{
+    color: #5b6642;
+    margin-top: 20%;
+}
+.HOMEBUT{
+    
+    
+    
+    padding-bottom: 150px;
+    padding-top: 0;
+    margin-top: 0;
+    
+    text-align: start;
+    
+    
+}
+.tohome{
+    background-image: url('https://i.pinimg.com/originals/5d/3d/e5/5d3de517fe6fc757b3d14c1ef5213dac.gif');
+   padding: 100px;
+   text-align:start;
+   background-size: cover;
+padding-right: 160px;
+padding-left: 60px;
+padding-bottom: 0px;
+    background-color: rgba(195, 65, 65, 0.931);
+    font-size: small;
+    border: 1px solid #bd4160;
+    border-radius: 5px;
+}
+.tohome:hover{
+    background-image: url('https://i.pinimg.com/originals/19/e8/96/19e896e84a4a57943e512ee9312750bd.gif');
+   padding: 100px;
+   text-align:start;
+   background-size: cover;
+   padding-right: 160px;
+padding-left: 40px;
+padding-bottom: 0px;
+   
+    background-color: rgba(195, 65, 65, 0.931);
+    font-size: small;
+    border: 1px solid #bd4160;
+    border-radius: 5px;
+    cursor: pointer;
+}

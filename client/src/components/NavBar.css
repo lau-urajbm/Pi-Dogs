@@ -1,0 +1,40 @@
+.titulo{
+    color: #5b6642;
+    justify-self: flex-start;
+    margin: 10px;
+    text-decoration: none;
+    text-align:left ;   
+}
+
+.logo{
+   
+    border: none;
+    
+}
+
+.creacion{
+    text-decoration: none;
+    color: #5b6642;
+    font-size:larger;
+    font-weight: 500;
+    background-color: #97b35c6e;
+    border-radius: 5px;
+    margin: 10px;
+    margin-right: 20px;
+    box-sizing: content-box;
+    width: 20%;
+    margin-left: 29%;
+    padding: 5px;
+}
+.logoTexto{
+    display:flex ;
+    
+}
+
+.contenedor1{
+    
+    display: flex;
+    background-color: rgba(234, 247, 119, 0.568);
+    justify-content: space-around;
+    
+}

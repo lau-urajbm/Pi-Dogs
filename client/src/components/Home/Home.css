@@ -1,0 +1,49 @@
+
+/* body{
+    background-image: url('https://as1.ftcdn.net/v2/jpg/04/52/52/36/1000_F_452523638_dEyWoXxaSyaVAetlpAnKd3lItFnASsGo.jpg') !important;
+}  */
+select{
+    background-color: rgb(102, 197, 246, 0.74);
+    border-radius: 5px;
+    padding: 4px;
+    padding-left:0 ;
+    font-size: medium;
+    border: 1px solid #77EAF7;
+    margin-top: 10px;
+    margin: 3px;
+    
+}
+option{
+    background-color: aliceblue;
+    
+}
+
+label{
+    font-size: medium;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 5px;
+}
+
+/* .botonCarga{
+    background-color: rgb(102, 197, 246, 0.74);
+    border-radius: 5px;
+    padding: 4px;
+    padding-left:0 ;
+    font-size: medium;
+    border: 1px solid #77EAF7;
+    margin-top: 10px;
+    margin: 3px;
+    
+}
+ */
+
+ .contenedor{
+     display: flex;
+     justify-content: flex-start;
+     
+     flex-wrap: wrap;
+ }
+ .card{
+    float: left;
+    width: 50%;
+ }

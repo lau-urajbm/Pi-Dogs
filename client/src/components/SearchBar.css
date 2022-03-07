@@ -1,0 +1,19 @@
+.buscar{
+    background-color:rgba(187, 228, 231, 0.767); 
+    border-radius: 5px;
+    border: 2px solid #ddb578;
+    padding: 10px;
+    font-size: medium;
+    
+}
+.busca{
+    background-color:rgba(234, 247, 119, 0.74); 
+    border-radius: 5px;
+    border: 2px solid #F7C477;
+    padding: 7px;
+}
+.busqueda{
+    margin: 5px;
+    margin-bottom: 10px;
+    
+}

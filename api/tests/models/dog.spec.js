@@ -1,4 +1,4 @@
-const { Dog, conn } = require('../../src/db.js');
+const { Dog,Temperament, conn } = require('../../src/db.js');
 const { expect } = require('chai');
 
 describe('Dog model', () => {
@@ -20,3 +20,10 @@ describe('Dog model', () => {
     });
   });
 });
+
+describe('Temperament model', ()=>{
+  it('el tipo de dato debe ser un string', ()=>{
+    expect(typeof Temperament.name).equal('string')
+  })
+})
+

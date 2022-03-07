@@ -1,0 +1,37 @@
+.detalles{
+    
+    background-color: rgba(104, 158, 185, 0.87);
+    border-radius: 5px;
+    border: 2px outset #62c0ca;
+    padding: 7px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    box-sizing: content-box;
+    width: 50%;
+    margin-left: 25%;
+    
+}
+.cargando{
+    border-radius: 5px;
+    width:  50%;
+    margin: 50px;
+}
+.titulo{
+    color: rgb(54, 74, 83);
+    margin: 10px;
+    text-align: center;
+}
+
+.perro{
+    background-color: rgb(102, 197, 246, 0.74);
+    border-radius: 5px;
+    border: 2px inset #6ba7ad;
+}
+
+.home{
+    background-color: #F7C477;
+    border-radius: 5px;
+    border: 2px outset #6ba7ad;
+    padding: 8px;
+}
