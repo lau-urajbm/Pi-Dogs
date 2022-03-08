@@ -17,7 +17,7 @@ let dog = await Dog.create({
     weight_min:parseInt(weight_min),
     weight_max:parseInt(weight_max),
     lifeSpan: `${lifeSpan} years`,
-    image, 
+    image:image==='' ?'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQB0IKTnuPwi3jiyshSj3j02U9w2dKRYjySiureLTPXKxKI6aZzUg53Ym8ApCm7mGqgDjc&usqp=CAU':image , 
     createdInDB,
     
     
