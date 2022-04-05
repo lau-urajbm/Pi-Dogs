@@ -152,7 +152,7 @@ temp.sort()
             <button onClick={(e)=>handleClick(e) } className='boton'>
                 volver a cargar todos los perritos
             </button>
-            
+            <label>Weight:</label>
             <select name="pesos en orden" onChange={(e)=>handleOrderWeight(e)} >
                 <option value='sin valor'>All</option>
                 <option value='asc'>asc</option>
