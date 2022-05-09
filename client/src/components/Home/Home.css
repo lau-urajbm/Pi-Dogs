@@ -47,3 +47,8 @@ label{
     float: left;
     width: 50%;
  }
+
+ .load{
+    border: none;
+    margin-top:  200px;
+}

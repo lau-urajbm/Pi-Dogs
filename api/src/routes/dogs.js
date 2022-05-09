@@ -80,7 +80,24 @@ router.get('/', async function(req, res){
     if(name){
         let perroBuscado = todos.filter(e => e.name.toLowerCase().includes(name.toLowerCase()))
 
-        perroBuscado.length ? res.status(200).send(perroBuscado) : res.status(400).send('La raza requerida no fue encontrada')
+        if(perroBuscado.length){
+            return res.status(200).send(perroBuscado) 
+        }else{
+            buscado =[{
+                id: '23e21ed',
+                name: "Not Found",
+                height: '' ,
+                height_min: 0,
+                height_max: 0,
+                image: "https://c.tenor.com/aFY6-YcV5kwAAAAC/sad-puppy.gif",
+                createdInDB:0,
+                weight:'',
+                weight_min: 0,
+                weight_max: 0,
+                temperament: [],
+              }]
+         res.status(200).send(buscado)
+    }
 
     }else{ 
     res.status(200).send(todos)
@@ -95,7 +112,19 @@ router.get('/:id', async function(req, res){
      if(id){
          let razaBuscada = todos.filter(el=>el.id == id)
 
-         razaBuscada.length ? res.status(200).send(razaBuscada): res.status(404).send('id no encontrado')
+         Object.keys(razaBuscada).length ? res.status(200).send(razaBuscada): res.status(201).send(buscado =[{
+            id: '23e21ed',
+            name: "Not Found",
+            /* height: '' ,
+            height_min: 0,
+            height_max: 0, */
+            image: "https://c.tenor.com/aFY6-YcV5kwAAAAC/sad-puppy.gif",
+            createdInDB:0,
+            weight:'',
+            weight_min: 0,
+            weight_max: 0,
+            temperament: [],
+          }])
      }
 
 

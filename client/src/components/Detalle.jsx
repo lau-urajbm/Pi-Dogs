@@ -16,6 +16,7 @@ export default function Detalle(){
         dispatch(getDetalleRaza(id))
         dispatch(limpiarDetalle())
     },[id])
+    console.log(dogDetail)
 
     
     
@@ -35,7 +36,7 @@ export default function Detalle(){
                      <div className="detalles">
                      <div>TEMPERAMENT: <br/>{dogDetail[0].temperament}</div>
                      <div>WEIGHT: {dogDetail[0].weight === "no especificado"?dogDetail[0].weight_min :dogDetail[0].weight  /* _min+' - '+dogDetail[0].weight_max */}</div>
-                     <div>HEIGHT: {dogDetail[0].height/* _min+' - '+dogDetail[0].height_max */} cm</div>
+                     <div>HEIGHT: {dogDetail[0].height&&dogDetail[0].height+' cm'/* _min+' - '+dogDetail[0].height_max */} </div>
                      <div>LIFE SPAN: {dogDetail[0].lifeSpan}</div>
                      
                      

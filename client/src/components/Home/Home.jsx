@@ -113,6 +113,7 @@ temp.sort()
     return(
         <div>
             <NavBar/>
+            {allDogs.length >0?
             <div className='filtros'>
             <SearchBar/>
             
@@ -166,8 +167,10 @@ temp.sort()
                 <option value='desc'>z-a</option>
             </select>
             </div>
-
-            <Paginado nDogsPag={nDogsPag} dogs={dogs.length} paginado={paginado} />
+:
+        
+<div><img src='https://cdn.dribbble.com/users/908372/screenshots/4812323/loading2.gif' width='30%'  className='load' ></img></div> }
+            
         <div className='contenedor'>
             {currDogs?.map(el=>{
                 return(
@@ -178,8 +181,8 @@ temp.sort()
                </div>
                 )
             })}
-        </div>
-
+        </div> 
+        <Paginado nDogsPag={nDogsPag} dogs={dogs.length} paginado={paginado} />
 
         </div>
         
