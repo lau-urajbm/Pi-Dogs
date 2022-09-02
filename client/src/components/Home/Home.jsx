@@ -112,8 +112,10 @@ temp.sort()
 
     return(
         <div style={{backgroundImage: `url(https://as1.ftcdn.net/v2/jpg/04/52/52/36/1000_F_452523638_dEyWoXxaSyaVAetlpAnKd3lItFnASsGo.jpg)`, }}>
-            <NavBar/>
+            
             {allDogs.length >0?
+            <>
+            <NavBar/>
             <div className='filtros'>
             <SearchBar/>
             
@@ -167,9 +169,10 @@ temp.sort()
                 <option value='desc'>z-a</option>
             </select>
             </div>
+            </>
 :
         
-<div style={{height:'100vh'}}><center><img src='https://cdn.dribbble.com/users/908372/screenshots/4812323/loading2.gif' width='30%'  className='load' ></img></center></div> }
+<div style={{height:'100vh', width:'100vw'}}><center><img src='https://cdn.dribbble.com/users/908372/screenshots/4812323/loading2.gif' width='30%'  className='load' ></img></center></div> }
             
         <div className='contenedor'>
             {currDogs?.map(el=>{

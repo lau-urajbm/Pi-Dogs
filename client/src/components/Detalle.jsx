@@ -22,7 +22,7 @@ export default function Detalle(){
     
 
     return(
-        <div> 
+        <div style={{backgroundImage: `url(https://as1.ftcdn.net/v2/jpg/04/52/52/36/1000_F_452523638_dEyWoXxaSyaVAetlpAnKd3lItFnASsGo.jpg)`, height:'100vh', backgroundRepeat:'repeat-y', backgroundSize:'cover' }}> 
             <NavBar/>
             {/* <Link to='/home'>
             <button className='home'>home</button>
@@ -32,7 +32,7 @@ export default function Detalle(){
                 dogDetail.length >0 ? 
                 <div>
                      <h1 className='titulo'>{dogDetail[0].name} </h1>
-                     <img src={dogDetail[0].image} width='45%' className='perro'/>
+                    <center> <img src={dogDetail[0].image} width='45%' className='perro'/></center>
                      <div className="detalles">
                      <div>TEMPERAMENT: <br/>{dogDetail[0].temperament}</div>
                      <div>WEIGHT: {dogDetail[0].weight === "no especificado"?dogDetail[0].weight_min :dogDetail[0].weight  /* _min+' - '+dogDetail[0].weight_max */}</div>
@@ -46,7 +46,7 @@ export default function Detalle(){
 
 
                 <div>
-                    <img className='cargando' src='https://cdn.dribbble.com/users/77598/screenshots/12570694/media/8eaa19b2448ee8719f559e4d1ec931bc.gif' />
+                    <center><img className='cargando' src='https://cdn.dribbble.com/users/77598/screenshots/12570694/media/8eaa19b2448ee8719f559e4d1ec931bc.gif' /></center>
                 </div>
             
             
