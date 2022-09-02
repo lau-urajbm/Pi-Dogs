@@ -28,7 +28,7 @@ const temperaments = temps.join().split(',') */
 
     return(
         <div className={splitLocation[1] === "dog" ?'navbarForm': 'contenedor1 '}>
-           <div className={splitLocation[1] === "dog" ?'logoTextoForm' :'logoTexto'}> <img src='https://i.pinimg.com/originals/49/e9/94/49e994574ccaae7ec41e42e85366f5d1.png' width='20%' className={splitLocation[1] === "dog" ?'logoForm':'logo'}/>
+           <div className={splitLocation[1] === "dog" ?'logoTextoForm' :'logoTexto'}> <img src='https://i.pinimg.com/originals/49/e9/94/49e994574ccaae7ec41e42e85366f5d1.png'  className={splitLocation[1] === "dog" ?'logoForm':'logo'}/>
             <h1 className='titulo'><Link to='/home' className='titulo'>DOGS</Link></h1>
             </div>
             <Link to='/dog' className={splitLocation[1] === "dog" ? 'formcreacion':'creacion'}>

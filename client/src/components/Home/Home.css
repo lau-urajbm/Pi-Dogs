@@ -1,7 +1,7 @@
 
-/* body{
-    background-image: url('https://as1.ftcdn.net/v2/jpg/04/52/52/36/1000_F_452523638_dEyWoXxaSyaVAetlpAnKd3lItFnASsGo.jpg') !important;
-}  */
+ body{
+    margin: 0;
+}  
 select{
     background-color: rgb(102, 197, 246, 0.74);
     border-radius: 5px;
@@ -39,13 +39,13 @@ label{
 
  .contenedor{
      display: flex;
-     justify-content: flex-start;
-     
+    
+     justify-content: space-evenly;
      flex-wrap: wrap;
  }
  .card{
     float: left;
-    width: 50%;
+    width: 450px;
  }
 
  .load{

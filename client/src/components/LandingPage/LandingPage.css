@@ -8,13 +8,13 @@
      justify-content: center;
      margin:0;
 }  */
-.body{
+/* .body{
     display: flex;
     margin: 100px;
     padding: 100px;
     justify-content: center;
     align-content: center;
-}
+} */
 /* .bienvenido{
     text-align: center;
     background-image:url('https://1.bp.blogspot.com/-Xn2v8r5_NRw/W-SlIR6L65I/AAAAAAAAM14/5uSBLZCaih4GMIsacsi-ZhXatOQfrY5CgCLcBGAs/s1600/perrito%2Bsaliendo%2Bde%2Bcaja.gif') ;
@@ -47,7 +47,7 @@
 .tohome{
     background-image: url('https://i.pinimg.com/originals/5d/3d/e5/5d3de517fe6fc757b3d14c1ef5213dac.gif');
    padding: 100px;
-   text-align:start;
+  
    background-size: cover;
 padding-right: 160px;
 padding-left: 60px;
@@ -56,6 +56,7 @@ padding-bottom: 0px;
     font-size: small;
     border: 1px solid #bd4160;
     border-radius: 5px;
+    
 }
 .tohome:hover{
     background-image: url('https://i.pinimg.com/originals/19/e8/96/19e896e84a4a57943e512ee9312750bd.gif');

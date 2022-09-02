@@ -9,7 +9,7 @@ import { Card } from "../Card";
 import NavBar from "../NavBar";
 import Paginado from "../Paginado";
 import SearchBar from '../SearchBar';
-
+import fondoPerro from '../Creation/perrito.jpg'
 
 
 
@@ -111,7 +111,7 @@ temp.sort()
 
 
     return(
-        <div>
+        <div style={{backgroundImage: `url(https://as1.ftcdn.net/v2/jpg/04/52/52/36/1000_F_452523638_dEyWoXxaSyaVAetlpAnKd3lItFnASsGo.jpg)`, }}>
             <NavBar/>
             {allDogs.length >0?
             <div className='filtros'>
@@ -169,7 +169,7 @@ temp.sort()
             </div>
 :
         
-<div><img src='https://cdn.dribbble.com/users/908372/screenshots/4812323/loading2.gif' width='30%'  className='load' ></img></div> }
+<div style={{height:'100vh'}}><center><img src='https://cdn.dribbble.com/users/908372/screenshots/4812323/loading2.gif' width='30%'  className='load' ></img></center></div> }
             
         <div className='contenedor'>
             {currDogs?.map(el=>{

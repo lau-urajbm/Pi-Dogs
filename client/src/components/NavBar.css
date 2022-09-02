@@ -9,6 +9,7 @@
 .logo{
    
     border: none;
+    width: 20%;
     
 }
 
@@ -37,4 +38,10 @@
     background-color: rgba(234, 247, 119, 0.568);
     justify-content: space-around;
     
+}
+
+@media screen and (max-width: 660px){
+    .logo{
+        display: none;
+    }
 }

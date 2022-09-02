@@ -2,8 +2,13 @@ img{
     border-radius: 15px;
     border: 4px outset #F7C477;
     
+
+}
+p{
+    text-align:justify;
 }
 .detalle{
     text-decoration: none;
     color: #000000;
 }
+
